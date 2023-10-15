@@ -47,7 +47,7 @@ public class ArtworkTest {
     @Test
     public void canSetPrice(){
         artwork.setPrice(1);
-        int price = artwork.getPrice();
+        double price = artwork.getPrice();
         assertThat(price).isEqualTo(1);
     }
 

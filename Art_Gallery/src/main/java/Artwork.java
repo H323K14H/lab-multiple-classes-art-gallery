@@ -1,9 +1,9 @@
 public class Artwork {
     private String title;
     private Artist artist;
-    private int price;
+    private double price;
 
-    public Artwork(String title, Artist artist, int price) {
+    public Artwork(String title, Artist artist, double price) {
         this.title = title;
         this.artist = artist;
         this.price = price;
@@ -25,7 +25,7 @@ public class Artwork {
         this.artist = artist;
     }
 
-    public int getPrice() {
+    public double getPrice() {
         return price;
     }
 

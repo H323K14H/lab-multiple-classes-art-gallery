@@ -1,8 +1,8 @@
 public class Customer {
     private String name;
-   private int wallet;
+   private double wallet;
    
-   public Customer(String name, int wallet) {
+   public Customer(String name, double wallet) {
        this.name = name;
        this.wallet = wallet;
    }
@@ -15,11 +15,11 @@ public class Customer {
         this.name = name;
     }
 
-    public int getWallet() {
+    public double getWallet() {
         return wallet;
     }
 
-    public void setWallet(int wallet) {
+    public void setWallet(double wallet) {
         this.wallet = wallet;
     }
 }
