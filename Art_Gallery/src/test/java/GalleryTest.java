@@ -35,7 +35,7 @@ public class GalleryTest {
     }
 
     @Test
-    public void hasName() {
+    public void canGetName() {
         assertThat(gallery.getName()).isEqualTo("Bright Artwork");
     }
 

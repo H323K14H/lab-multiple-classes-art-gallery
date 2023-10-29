@@ -19,7 +19,7 @@ public class Gallery {
         return this.name;
     }
 
-    public void setName(String name){
+    public void setName(String name) {
         this.name = name;
     }
 
@@ -27,10 +27,11 @@ public class Gallery {
         return this.till;
     }
 
-    public ArrayList<Artwork> getStock(){
+    public ArrayList<Artwork> getStock() {
         return this.stock;
     }
-    public void setStock(ArrayList<Artwork> stock){
+
+    public void setStock(ArrayList<Artwork> stock) {
         this.stock = stock;
     }
 }
